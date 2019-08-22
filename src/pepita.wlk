@@ -66,5 +66,7 @@ object manzana {
 }
 
 object mijo {
-	
+	method energiaQueOtorga() {
+		return 15
+	}
 }
