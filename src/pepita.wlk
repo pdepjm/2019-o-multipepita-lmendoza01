@@ -128,10 +128,10 @@ object canelones {
 }
 
 object roque {
-	method entrenar(persona){
-		persona.vola(10)
-		persona.come(alpiste)
-		persona.vola(5)
-		persona.haceLoQueQuieras()
+	method entrenar(){
+		pepita.vola(10)
+		pepita.come(alpiste)
+		pepita.vola(5)
+		pepita.haceLoQueQuieras()
 	}
 }
