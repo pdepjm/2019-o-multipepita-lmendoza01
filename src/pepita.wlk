@@ -76,6 +76,25 @@ object manzana {
 	}	
 }
 
+
+
+object mijo {
+	var seco = false
+	
+	method mojarse(){
+		seco = false
+	}
+	method secarse(){
+		seco = true
+	}
+	
+	method energiaQueOtorga(){
+		if(not(seco)){
+		return 15
+		}
+		else return 20
+	}
+}
 object canelones {
 	var salsa = false
 	var queso = false
