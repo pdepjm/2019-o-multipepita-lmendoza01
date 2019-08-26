@@ -114,14 +114,14 @@ object canelones {
 	}
 	
 	method energiaQueOtorga(){
+		if(salsa && queso){
+			return 32
+		}
 		if(salsa){
 			return 25
 		}
 		if(queso){
 			return 27
-		}
-		if(salsa && queso){
-			return 32
 		} else return 20
 	
 	}
